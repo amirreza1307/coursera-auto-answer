@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "coursera auto answer",
   "version": "1.0",
-  "description": "a google extension to answer coursera quiz with chatgpt",
+  "description": "a google extension to answer coursera quiz with chatgpt.",
   "permissions": [
     "activeTab",
     "scripting"
@@ -11,10 +11,10 @@
     "service_worker": "service-worker.js"
   },
   "icons": {
-    "16": "icon16.png",
-    "32": "icon32.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "icon/icon16.png",
+    "32": "icon/icon32.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
   },
   "action": {
     "default_title": "Action Button"

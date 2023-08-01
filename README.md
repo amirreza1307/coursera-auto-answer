@@ -1,5 +1,5 @@
 # coursera-auto-answer
-a google extension to answer coursera exams with chatgpt without openai API
+a google extension to answer coursera exams with chatgpt without needing openai API
 
 ![1](https://github.com/amirreza1307/coursera-auto-answer/assets/135555619/2378674f-e6c9-4a88-bf72-6fa773b52dfb)
 # Installation 

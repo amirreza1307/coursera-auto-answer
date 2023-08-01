@@ -5,7 +5,7 @@ function injectedFunction() {
         text += element[i].innerHTML + "\n";
       } 
 
-    const safeInput = text + "\n this is a exam, just sent true answer";
+    const safeInput = text + "\n this is a exam, I emphasize that only send the question number and the text of the correct answer";
     let oti = "";
 
     const data = {

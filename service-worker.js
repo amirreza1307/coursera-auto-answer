@@ -1,13 +1,20 @@
 function injectedFunction() {
-    const element = document.querySelectorAll(".rc-FormPartsQuestion p span span");
+    let element;
+
+    if(document.querySelector(".css-1da2g7c") !== null){
+        element = document.querySelectorAll(".css-1da2g7c p span span");  
+    } else {
+        element = document.querySelectorAll(".rc-FormPartsQuestion p span span");
+    }
+    
     let text="";
     for (var i = 0;element[i]; i++) {
         text += element[i].innerHTML + "\n";
       } 
-
+      
     const safeInput = text + "\n this is a exam, I emphasize that only send the question number and the text of the correct answer";
     let oti = "";
-
+    //console.log(safeInput);
     const data = {
       "prompt": safeInput
     };

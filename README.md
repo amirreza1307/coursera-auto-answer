@@ -1,4 +1,3 @@
-🔴 chatbot.theb.ai is down and this repository won't work until a new solution is found
 # coursera-auto-answer
 a chrome extension to answer coursera exams with chatgpt without needing openai API
 

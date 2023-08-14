@@ -16,7 +16,12 @@ function injectedFunction() {
     let oti = "";
     //console.log(safeInput);
     const data = {
-      "prompt": safeInput
+      "id":null,
+      "botId":"default",
+      "contextId":443,
+      "messages":[{"id":"qz0d4dqhc2","role":"assistant","content":"Hi! How can I help you?","who":"AI: ","timestamp":1691417661261}],
+      "newMessage":safeInput,
+      "stream":false
     };
     const payload = JSON.stringify(data);
     const headers = {
@@ -24,10 +29,10 @@ function injectedFunction() {
       "Accept": "application/json, text/plain, */*",
       "Accept-Language": "en-US,en;q=0.5",
       "Content-Type": "application/json",
-      "Origin": "https://chatbot.theb.ai",
-      "Referer": "https://chatbot.theb.ai/"
+      "Origin": "https://www.chatgptdownload.org",
+      "Referer": "https://www.chatgptdownload.org/"
     };
-    const url = "https://chatbot.theb.ai/api/chat-process";
+    const url = "https://www.chatgptdownload.org/wp-json/mwai-ui/v1/chats/submit";
     fetch(url, {
       method: 'POST',
       headers: headers,
@@ -44,7 +49,7 @@ function injectedFunction() {
         const json_strings = response_text.trim().split('\n');
         const last_json_string = json_strings[json_strings.length - 1];
         const response_json = JSON.parse(last_json_string);
-        oti = response_json['text'];
+        oti = response_json['reply'];
         console.log(oti);
       for (var i = 0;element[i]; i++) {
         if (oti.toLowerCase().includes(element[i].innerHTML.toLowerCase())) {

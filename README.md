@@ -1,7 +1,10 @@
-Extension on Edge Add-ons: <br/>
-https://microsoftedge.microsoft.com/addons/detail/coursera-auto-answer/kojelegnkkpfplaojdmgmojfligoaogl
 # coursera-auto-answer
-a chrome extension to answer coursera exams with chatgpt without needing openai API
+Extension on Edge Add-ons: <br/>
+https://microsoftedge.microsoft.com/addons/detail/coursera-auto-answer/kojelegnkkpfplaojdmgmojfligoaogl <br/> <br/>
+a browser extension to answer coursera exams with chatgpt without needing openai API
+
+
+
 
 ![1](https://github.com/amirreza1307/coursera-auto-answer/assets/135555619/2378674f-e6c9-4a88-bf72-6fa773b52dfb)
 # Installation 
